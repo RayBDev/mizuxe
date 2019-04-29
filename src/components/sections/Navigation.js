@@ -2,9 +2,8 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
 import { Link } from "react-scroll"
-
-import logo from "../../assets/images/mlogo.png"
 
 const Navigation = ({ siteTitle }) => (
   <StaticQuery
@@ -20,20 +19,25 @@ const Navigation = ({ siteTitle }) => (
       }
     `}
     render={data => (
-      <nav className="navbar navbar-expand-md navbar-light fixed-top py-4">
+      <Navbar
+        expand="lg"
+        bg="light"
+        variant="light"
+        fixed="top"
+        className="py-4"
+      >
         <div className="container">
-          <a href="/" className="navbar-brand">
-            {/*<img src={logo} width="50" height="50" alt="logo" />*/}
+          <Navbar.Brand href="index.html">
             <Img
               alt="logo"
               className="align-middle mr-1"
               fixed={data.logo.childImageSharp.fixed}
             />
             <h3 className="d-inline align-middle display-5">{siteTitle}</h3>
-          </a>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <ul className="navbar-nav ml-auto">
+            <Nav className="ml-auto" as="ul">
               <li className="nav-item">
                 <Link
                   activeClass="active"
@@ -86,10 +90,10 @@ const Navigation = ({ siteTitle }) => (
                   Contact
                 </Link>
               </li>
-            </ul>
+            </Nav>
           </Navbar.Collapse>
         </div>
-      </nav>
+      </Navbar>
     )}
   />
 )

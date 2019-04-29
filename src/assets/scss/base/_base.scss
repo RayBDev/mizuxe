@@ -1,0 +1,9 @@
+body {
+  margin-top: 105px;
+}
+
+@include respond(xs) {
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}

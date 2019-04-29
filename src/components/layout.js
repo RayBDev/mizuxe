@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Navigation siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
+        {children}
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
