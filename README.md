@@ -2,10 +2,10 @@
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/RayBDev/mizuxe/master/src/assets/images/mlogo.png" width="60" />
   </a>
-
-# Mizuxe
-
 </p>
+<h1 align="center">
+  Mizuxe
+</h1>
 
 ---
 
