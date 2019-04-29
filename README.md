@@ -7,8 +7,6 @@
   Mizuxe
 </h1>
 
----
-
 Mizuxe is a landing page template for Book Authors created with Gatsby, Bootstrap and Sass.
 
 ## :bookmark_tabs: Technologies Used
