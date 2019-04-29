@@ -68,17 +68,29 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com" target="_blank">
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com" target="_blank">
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com" target="_blank">
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -102,17 +114,29 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com" target="_blank">
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com" target="_blank">
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com" target="_blank">
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -136,17 +160,29 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com" target="_blank">
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com" target="_blank">
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com" target="_blank">
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -170,17 +206,29 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com" target="_blank">
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com" target="_blank">
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com" target="_blank">
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
