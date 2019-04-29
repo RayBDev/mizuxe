@@ -1,11 +1,10 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/RayBDev/mizuxe/master/src/assets/images/mlogo.png" width="60" />
   </a>
 </p>
 
-#Mizuxe
+# Mizuxe
 
 ---
 
