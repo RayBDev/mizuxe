@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Element } from "react-scroll"
 
 const Contact = () => (
   <StaticQuery
@@ -17,7 +18,7 @@ const Contact = () => (
     `}
     render={data => (
       <section id="contact" className="bg-light py-5">
-        <div className="container">
+        <Element name="contact" className="container">
           <div className="row">
             <div className="col-lg-9">
               <h3>Get In Touch</h3>
@@ -73,7 +74,7 @@ const Contact = () => (
               <Img fluid={data.logo.childImageSharp.fluid} />
             </div>
           </div>
-        </div>
+        </Element>
       </section>
     )}
   />
