@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Header from "../components/sections/Header"
 import Newsletter from "../components/sections/Newsletter"
 import Benefits from "../components/sections/Benefits"
+import About from "../components/sections/About"
 
 import "../assets/scss/main.scss"
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <main>
       <Newsletter />
       <Benefits />
+      <About />
     </main>
   </Layout>
 )
