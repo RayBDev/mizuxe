@@ -2,6 +2,22 @@ body {
   margin-top: 105px;
 }
 
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+
+  @include respond(sm) {
+    width: 75%;
+  }
+}
+
+@include respond(md) {
+  .mt-resp {
+    margin-top: 3rem;
+  }
+}
+
 @include respond(xs) {
   .mb-resp {
     margin-bottom: 1rem;

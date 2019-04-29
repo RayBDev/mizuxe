@@ -1,0 +1,16 @@
+#authors {
+  .gatsby-image-wrapper {
+    margin-top: -3.125rem;
+  }
+
+  .card:hover {
+    background: $primary;
+    color: #fff;
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-twitter {
+      color: #fff;
+    }
+  }
+}
