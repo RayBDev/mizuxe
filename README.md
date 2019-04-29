@@ -4,7 +4,8 @@
     <img alt="Gatsby" src="https://raw.githubusercontent.com/RayBDev/mizuxe/master/src/assets/images/mlogo.png" width="60" />
   </a>
 </p>
-# Mizuxe
+
+#Mizuxe
 
 ---
 
