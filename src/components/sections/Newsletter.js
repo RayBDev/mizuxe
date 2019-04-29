@@ -21,7 +21,7 @@ const Newsletter = () => {
           </div>
           <div className="col-md-4">
             <button className="btn btn-primary btn-block btn-lg ">
-              <i className="fas fa-envelope-open" />
+              <i className="fas fa-envelope" />
               <span className="ml-2">Subscribe</span>
             </button>
           </div>

@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Element } from "react-scroll"
 
 const Authors = () => (
   <StaticQuery
@@ -38,7 +39,7 @@ const Authors = () => (
     `}
     render={data => (
       <section id="authors" className="my-5 text-center">
-        <div className="container">
+        <Element name="authors" className="container">
           <div className="row">
             <div className="col">
               <div className="info-header mb-5">
@@ -67,17 +68,17 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com">
+                      <a href="https://facebook.com" target="_blank">
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com">
+                      <a href="https://twitter.com" target="_blank">
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com">
+                      <a href="https://instagram.com" target="_blank">
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -101,17 +102,17 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com">
+                      <a href="https://facebook.com" target="_blank">
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com">
+                      <a href="https://twitter.com" target="_blank">
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com">
+                      <a href="https://instagram.com" target="_blank">
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -119,7 +120,7 @@ const Authors = () => (
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mt-resp">
+            <div className="col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-body">
                   <Img
@@ -135,17 +136,17 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com">
+                      <a href="https://facebook.com" target="_blank">
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com">
+                      <a href="https://twitter.com" target="_blank">
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com">
+                      <a href="https://instagram.com" target="_blank">
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -153,7 +154,7 @@ const Authors = () => (
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mt-resp">
+            <div className="col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-body">
                   <Img
@@ -169,17 +170,17 @@ const Authors = () => (
                   </p>
                   <div className="d-flex justify-content-center">
                     <div className="p-4">
-                      <a href="https://facebook.com">
+                      <a href="https://facebook.com" target="_blank">
                         <i className="fab fa-facebook" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://twitter.com">
+                      <a href="https://twitter.com" target="_blank">
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
                     <div className="p-4">
-                      <a href="https://instagram.com">
+                      <a href="https://instagram.com" target="_blank">
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -188,7 +189,7 @@ const Authors = () => (
               </div>
             </div>
           </div>
-        </div>
+        </Element>
       </section>
     )}
   />

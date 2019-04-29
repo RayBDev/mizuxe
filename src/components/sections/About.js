@@ -1,12 +1,12 @@
 import React from "react"
-
 import Accordion from "react-bootstrap/Accordion"
 import Card from "react-bootstrap/Card"
+import { Element } from "react-scroll"
 
 const About = () => {
   return (
     <section id="about" className="py-5 text-center bg-light">
-      <div className="container">
+      <Element name="about" className="container">
         <div className="row">
           <div className="col">
             <div className="info-header mb-5">
@@ -88,7 +88,7 @@ const About = () => {
             </Accordion>
           </div>
         </div>
-      </div>
+      </Element>
     </section>
   )
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Element } from "react-scroll"
 
 const Header = () => (
   <StaticQuery
@@ -34,7 +35,7 @@ const Header = () => (
             height: "100%",
           }}
         />
-        <div className="primary-overlay text-white">
+        <Element name="showcase" className="primary-overlay text-white">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 text-center">
@@ -60,7 +61,7 @@ const Header = () => (
               </div>
             </div>
           </div>
-        </div>
+        </Element>
       </header>
     )}
   />

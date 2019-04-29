@@ -7,6 +7,7 @@ import Newsletter from "../components/sections/Newsletter"
 import Benefits from "../components/sections/Benefits"
 import About from "../components/sections/About"
 import Authors from "../components/sections/Authors"
+import Contact from "../components/sections/Contact"
 
 import "../assets/scss/main.scss"
 
@@ -19,6 +20,7 @@ const IndexPage = () => (
       <Benefits />
       <About />
       <Authors />
+      <Contact />
     </main>
   </Layout>
 )

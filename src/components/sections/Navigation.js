@@ -42,10 +42,11 @@ const Navigation = ({ siteTitle }) => (
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="home"
+                  to="showcase"
                   spy={true}
                   smooth={true}
                   duration={500}
+                  offset={-120}
                   style={{ cursor: "pointer" }}
                 >
                   Home
@@ -59,6 +60,7 @@ const Navigation = ({ siteTitle }) => (
                   spy={true}
                   smooth={true}
                   duration={500}
+                  offset={-120}
                   style={{ cursor: "pointer" }}
                 >
                   About
@@ -72,6 +74,7 @@ const Navigation = ({ siteTitle }) => (
                   spy={true}
                   smooth={true}
                   duration={500}
+                  offset={-120}
                   style={{ cursor: "pointer" }}
                 >
                   Meet The Authors
@@ -85,6 +88,7 @@ const Navigation = ({ siteTitle }) => (
                   spy={true}
                   smooth={true}
                   duration={500}
+                  offset={-120}
                   style={{ cursor: "pointer" }}
                 >
                   Contact
