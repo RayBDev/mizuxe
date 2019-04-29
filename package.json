@@ -1,8 +1,6 @@
 {
   "name": "Mizuxe",
-  "private": true,
   "description": "Mizuxe is a book template created in Bootstrap and Gatsby using Sass",
-  "version": "1.0",
   "author": "Ray Bernard",
   "dependencies": {
     "gatsby": "^2.3.31",
